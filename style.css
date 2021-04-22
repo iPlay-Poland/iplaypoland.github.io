@@ -1,16 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,800;1,400&display=swap');
 
+:root {
+    --bg: #2C2F33;
+    --tx: #fefefe;
+}
+
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
+    background: var(--bg);
+    color: var(--tx);
 }
 
 header {
     font-family: 'Motserrat', sans-serif;
     font-weight: 800;
-    font-size: 4rem;
+    font-size: 6rem;
 }
